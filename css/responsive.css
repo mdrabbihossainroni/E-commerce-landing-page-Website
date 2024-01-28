@@ -1,0 +1,60 @@
+@media (min-width: 320px) and (max-width: 767px) {
+    #banner .cards .texts .text p {
+        margin-top: -10px;
+    }
+    #banner .cards h2 {
+        font-size: 22px;
+        margin-top: 14px;
+    }
+    #banner .cards a {
+        margin-top: -5px;
+    }
+    #flash .heading h2 {
+        font-size: 20px;
+    }
+    #flash .button a {
+        font-size: 12px;
+        padding: 8px 22px;
+        margin-bottom: 30px;
+        margin-top: 21px;
+    }
+    #browse .heading h2 {
+        font-size: 26px;
+    }
+    #selling .heading h2 {
+        font-size: 22px;
+    }
+    #selling .heading a {
+        top: 20px;
+        right: 10px;
+        padding: 11px 28px;
+    }
+    #music .cards .content h2 {
+        font-size: 25px;
+        line-height: 40px;
+    }
+    #music .cards .image img {
+        width: 250px;
+        height: 140px;
+        text-align: center;
+    }
+    #music .cards .content {
+        padding: 69px 0px 69px 20px;
+    }
+    #products .heading h2 {
+        font-size: 26px;
+    }
+    #products .button a {
+        font-size: 12px;
+        padding: 10px 35px;
+    }
+    #footer .cards h2 {
+        text-align: center;
+    }
+    #footer .cards p {
+        text-align: center;
+    }
+    #footer .cards h6 {
+        text-align: center;
+    }
+}

@@ -1,0 +1,965 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600&display=swap');
+/* COMMON CSS START */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --primaryfont: 'Poppins', sans-serif;
+    --secondaryfont: 'Inter', sans-serif;
+    --primarycolor: #000000;
+    --secondarycolor: ;
+}
+
+ul,ol {
+    list-style: none;
+}
+
+h1.h2,h3,h4,h5,h6,span,ul,ol {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: var(--primaryfont);
+}
+
+/* COMMON CSS END */
+
+/* FOOTER START */
+.foot {
+    background-color: var(--primarycolor);
+    padding: 12px 0px;
+}
+
+.foot .text p {
+    color: #FAFAFA;
+font-family: var(--primaryfont);
+font-size: 14px;
+font-weight: 400;
+line-height: 21px; 
+text-align: center;
+}
+
+.foot .text p span a{
+    color: #FAFAFA;
+text-align: center;
+font-family: var(--primaryfont);
+font-size: 14px;
+font-weight: 600;
+line-height: 24px; 
+text-decoration-line: underline;
+margin-left: 20px;
+}
+
+.foot .bangla p {
+    color: #FAFAFA;
+font-family: var(--primaryfont);
+font-size: 14px;
+font-weight: 400;
+line-height: 21px; 
+text-align: right;
+}
+
+.foot .bangla span a i {
+    width: 24px;
+height: 24px;
+color: white;
+text-align: right;
+}
+/* FOOTER END */
+
+/* NAV START */
+
+#custom ul li {
+    padding: 48px 24px;
+}
+
+#custom ul li a {
+    color:  var(--primarycolor);
+font-family: var(--primaryfont);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px; 
+transition: 300ms;
+}
+
+#custom ul li:hover a {
+    color: blue;
+    border-bottom: 1px solid var(--primarycolor);
+}
+
+.icon ul li {
+display: inline-block;
+}
+
+.icon ul li a {
+    width: 32px;
+height: 32px;
+color: var(--primarycolor);
+}
+/* NAV END */
+
+/* NAV-SM START */
+.nav-sm .hamber i{
+    color: var(--primarycolor);
+    text-align: center;
+    padding: 20px 0px;
+    display: block;
+}
+
+button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.nav-sm .logo {
+    padding: 18px 0px;
+    text-align: center;
+    display: block;
+}
+
+.nav-sm .icon i{
+    color: var(--primarycolor);
+    text-align: center;
+    padding: 20px 0px;
+    display: block;
+}
+
+.offcanvas-body ul li a {
+    color: var(--primarycolor);
+    margin-bottom: 20px;
+    display: block;
+}
+
+.offcanvas-body ul li:hover a {
+    color: blue;
+}
+/* NAV-SM END */
+
+/* BANNER START */
+#banner {
+    background-color: var(--primarycolor);
+}
+
+#banner .cards .texts .icon  {
+    width: 40px;
+height: 49px;
+color: white;
+margin-top: 51px;
+}
+
+#banner .cards .texts .text p {
+    color: #FAFAFA;
+    font-family: var(--primaryfont);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; 
+    margin-top: 51px;
+}
+
+#banner .cards h2 {
+    color: #FAFAFA;
+    font-family: var(--secondaryfont);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px; 
+    letter-spacing: 1.92px;
+    margin-top: 34px;
+}
+
+#banner .cards a {
+    color: #FAFAFA;
+font-family: var(--primaryfont);
+font-size: 16px;
+font-weight: 500;
+line-height: 24px; 
+margin-right: 10px;
+margin-top: 22px;
+display: inline-block;
+}
+
+#banner .cards a:hover {
+    border-bottom: 1px solid white;
+}
+
+#banner button {
+    color: red;
+}
+
+#banner .slicks {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+#banner .slicks button{
+    display: flex;
+ justify-content: center;
+    width: 20px;
+height: 20px;
+border-radius: 15px;
+background: rebeccapurple;
+color: transparent;
+margin-right: 10px;
+border: none;
+outline: none;
+}
+
+#banner .slicks .slick-active button{
+    width: 61.091px;
+height: 20px;
+background-color: rgb(2, 41, 12);
+}
+/* BANNER END */
+
+/* FLASH SALES START */
+#flash {
+padding: 140px 0px 60px 0px;
+position: relative;
+}
+
+
+#flash .heading h2 {
+    color: var(--primarycolor);
+    font-family: var(--secondaryfont);
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 48px; 
+    letter-spacing: 1.44px;
+    padding: 24px 0px 40px 0px;
+}
+
+#flash .cards .image img {
+    width: 172px;
+height: 152px;
+background-color: red;
+padding: 49px;
+border-radius: 4px;
+background: var(--Secondary, #F5F5F5);
+position: relative;
+}
+
+#flash .cards .text h2 {
+    color: var(--primarycolor);
+font-family: var(--primaryfont);
+font-size: 12px;
+font-weight: 500;
+line-height: 24px; 
+padding: 16px 0px 8px 0px;
+}
+
+#flash .cards .text h3 {
+    color: #DB4444;
+    font-family: var(--primaryfont);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; 
+    margin-bottom: 8px;
+}
+
+#flash .cards .text h3 span {
+    color: var(--primarycolor);
+font-family: var(--primaryfont);
+font-size: 15px;
+font-weight: 500;
+line-height: 24px; 
+text-decoration: line-through;
+opacity: 0.5;
+margin-left: 12px;
+}
+
+#flash .cards .text .star i {
+    width: 20px;
+height: 20px;
+color: #FFAD33;
+}
+
+#flash .cards .text .star span {
+    width: 32px;
+height: 20px;
+color: var(--primarycolor);
+font-family: var(--primaryfont);
+font-size: 14px;
+font-weight: 600;
+line-height: 21px; 
+margin-left: 8px;
+}
+
+
+    #flash .cards .image {
+        position: relative;
+    }
+
+    #flash .cards .overlay ul li a {
+        color: blueviolet;
+        margin-bottom: 10px;
+        display: block;
+    }
+
+ #flash .cards .overlay {
+    position: absolute;
+    top: 10px;
+    right: 70px;
+    transform: translate(0);
+    visibility: hidden;
+    opacity: 0;
+    transition: 400ms;
+}
+
+#flash .cards:hover .overlay {
+    transform: translate(1);
+    visibility: visible;
+    opacity: 1;
+}
+
+#flash .cards .overlay1 a {
+    font-size: 15px;
+    text-align: center;
+    padding: 5px 48px 5px 36px;
+    background-color: black;
+    color: white;
+}
+
+#flash .cards .overlay1 {
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    transform: translate(0);
+    visibility: hidden;
+    opacity: 0;
+    transition: 400ms;
+}
+
+#flash .cards:hover .overlay1 {
+    transform: translate(1);
+    visibility: visible;
+    opacity: 1;
+}
+
+#flash .cards .overlay2 h2 {
+    font-size: 13px;
+    text-align: center;
+    padding: 5px 20px 5px 16px;
+    background-color: red;
+    color: white;
+}
+
+#flash .cards .overlay2 {
+    position: absolute;
+    top: 0px;
+}
+
+#flash .button {
+    text-align: center;
+}
+
+#flash .button a {
+    color: #FAFAFA;
+font-family: var(--primaryfont);
+font-size: 16px;
+font-weight: 500;
+line-height: 24px; 
+border-radius: 4px;
+background-color: #DB4444;
+padding: 16px 48px;
+display: inline-block;
+margin-bottom: 60px;
+margin-top: 51px;
+}
+
+#flash .menu {
+    display: flex;
+    justify-content: center;
+}
+
+#flash .menu button {
+    background-color: transparent;
+    color: transparent;
+    border: none;
+    outline: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    background: rebeccapurple;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+#flash .menu .slick-active button {
+    width: 45px;
+    height: 20px;
+    border-radius: 15px;
+    background: green;  
+}
+/* FLASH SALES END */
+
+/* BROWSE BY CATEGORY START */
+
+#browse .heading h2 {
+    color: var(--primarycolor);
+font-family: var(--secondaryfont);
+font-size: 36px;
+font-weight: 600;
+line-height: 48px; 
+letter-spacing: 1.44px;
+margin-bottom: 40px;
+}
+
+#browse .cards {
+    padding: 0px 20px;
+    margin-bottom: 40px;
+}
+
+#browse .heading img {
+    padding: 50px 0px 20px 0px;
+}
+
+#browse .sliderTop .cards .informed h4 {
+    color: var(--primarycolor);
+    font-family: var(--primaryfont);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    text-align: center;
+}
+
+#browse .cards .informed {
+    padding: 30px 25px;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+    border-radius: 10px;
+}
+
+#browse .cards .informed h4 {
+    color: var(--primarycolor);
+font-family: var(--primaryfont);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px; 
+}
+
+#browse .cards:hover .informed {
+    background-color:  #DB4444;
+    box-shadow: 0px 1px 13px 0px rgba(0, 0, 0, 0.05);
+}
+
+#browse .Slides {
+    display: flex;
+    justify-content: center;
+}
+
+#browse .Slides button {
+    background-color: transparent;
+    color: transparent;
+    border: none;
+    outline: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    background: gray;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+#browse .Slides .slick-active button {
+    width: 45px;
+    height: 20px;
+    border-radius: 15px;
+    background: dodgerblue;  
+}
+/* BROWSE BY CATEGORY END */
+
+/* BEST SELLING PRODUCTS START */
+#selling {
+    position: relative;
+    margin-bottom: 80px;
+}
+
+#selling .heading {
+margin-top: 50px;
+}
+
+#selling .heading h2 {
+    color: var(--primarycolor);
+    font-family: var(--secondaryfont);
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 48px; 
+    letter-spacing: 1.44px;
+    padding: 20px 0px 40px 0px;
+}
+
+#selling .heading a {
+    position: absolute;
+    top: 60px;
+    right: 50px;
+    border-radius: 4px;
+    background-color: #DB4444;
+    padding: 16px 48px;
+    color: white;
+}
+
+
+#selling .cards .image img {
+    border-radius: 4px;
+    background: var(--Secondary, #F5F5F5);
+}
+
+#selling .cards .text h2 {
+    color: var(--primarycolor);
+font-family: var(--primaryfont);
+font-size: 12px;
+font-weight: 500;
+line-height: 24px; 
+padding: 16px 0px 8px 0px;
+}
+
+#selling .cards .text h3 {
+    color: #DB4444;
+    font-family: var(--primaryfont);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; 
+    margin-bottom: 8px;
+}
+
+#selling .cards .text h3 span {
+    color: var(--primarycolor);
+font-family: var(--primaryfont);
+font-size: 15px;
+font-weight: 500;
+line-height: 24px; 
+text-decoration: line-through;
+opacity: 0.5;
+margin-left: 12px;
+}
+
+#selling .cards .text .star i {
+    width: 20px;
+height: 20px;
+color: #FFAD33;
+}
+
+#selling .cards .text .star span {
+    width: 32px;
+height: 20px;
+color: var(--primarycolor);
+font-family: var(--primaryfont);
+font-size: 14px;
+font-weight: 600;
+line-height: 21px; 
+margin-left: 8px;
+}
+
+#selling .cards .image {
+    position: relative;
+}
+
+#selling .cards .image .overlay {
+    position: absolute;
+    top: 15px;
+    right: 30px;
+}
+
+#selling .cards .image .overlay ul li a {
+    color: var(--primarycolor);
+    margin-bottom: 10px;
+    display: block;
+    transform: translate(0);
+    visibility: hidden;
+    opacity: 0;
+    transition: 400ms;
+}
+
+#selling .cards .image .overlay:hover ul li a {
+    color: rgba(205, 12, 231, 0.918);
+    transform: translate(1);
+    visibility: visible;
+    opacity: 1;
+}
+/* BEST SELLING PRODUCTS END */
+
+/* MUSIC EXPERIENCE START */
+
+#music .cards .content {
+    padding: 69px 0px 69px 56px;
+}
+
+#music .cards .content p {
+    color: #0F6;
+font-family: var(--primaryfont);
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px; 
+}
+
+#music .cards .content h2 {
+    color: #FAFAFA;
+font-family: var(--secondaryfont);
+font-size: 40px;
+font-weight: 600;
+line-height: 60px; 
+letter-spacing: 1.92px;
+}
+
+#music .cards .content a {
+    color: black;
+font-family: var(--primaryfont);
+font-size: 16px;
+font-weight: 500;
+line-height: 24px; 
+padding: 16px 48px;
+border-radius: 4px;
+background: #0F6;
+display: inline-block;
+}
+
+#music .cards .image {
+    padding: 60px 0px 30px 0px;
+}
+
+#music .cards .image img {
+    width: 368px;
+height: 200px;
+flex-shrink: 0;
+background-image: url(../images/bgimage.png);
+}
+/* MUSIC EXPERIENCE END */
+
+/* EXPLORE OUR PRODUCTS START */
+#products .heading {
+    padding: 60px 0px 40px 0px;
+}
+
+#products .heading h2 {
+    color: var(--primarycolor);
+font-family: var(--secondaryfont);
+font-size: 36px;
+font-weight: 600;
+line-height: 48px; 
+letter-spacing: 1.44px;
+margin-top: 20px;
+}
+
+#products .cards .image img {
+    width: 172px;
+height: 152px;
+background-color: red;
+padding: 49px;
+border-radius: 4px;
+background: var(--Secondary, #F5F5F5);
+position: relative;
+}
+
+#products .cards .text h2 {
+    color: var(--primarycolor);
+font-family: var(--primaryfont);
+font-size: 12px;
+font-weight: 500;
+line-height: 24px; 
+padding: 16px 0px 8px 0px;
+}
+
+#products .cards .text h3 {
+    color: #DB4444;
+    font-family: var(--primaryfont);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; 
+    margin-bottom: 8px;
+}
+
+#products .cards .text h3 span {
+    color: var(--primarycolor);
+font-family: var(--primaryfont);
+font-size: 15px;
+font-weight: 500;
+line-height: 24px; 
+text-decoration: line-through;
+opacity: 0.5;
+margin-left: 12px;
+}
+
+#products .cards .text .star i {
+    width: 20px;
+height: 20px;
+color: #FFAD33;
+}
+
+#products .cards .text .star span {
+    width: 32px;
+height: 20px;
+color: var(--primarycolor);
+font-family: var(--primaryfont);
+font-size: 14px;
+font-weight: 600;
+line-height: 21px; 
+margin-left: 8px;
+}
+
+
+    #products .cards .image {
+        position: relative;
+    }
+
+    #products .cards .overlay ul li a {
+        color: blueviolet;
+        margin-bottom: 10px;
+        display: block;
+    }
+
+ #products .cards .overlay {
+    position: absolute;
+    top: 10px;
+    right: 60px;
+    transform: translate(0);
+    visibility: hidden;
+    opacity: 0;
+    transition: 400ms;
+}
+
+#products .cards:hover .overlay {
+    transform: translate(1);
+    visibility: visible;
+    opacity: 1;
+}
+
+#products .cards .overlay1 a {
+    font-size: 15px;
+    padding: 5px 48px 5px 36px;
+    background-color: black;
+    color: white;
+}
+
+
+#products .cards .overlay1 {
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    transform: translate(0);
+    visibility: hidden;
+    opacity: 0;
+    transition: 400ms;
+}
+
+#products .cards:hover .overlay1 {
+    transform: translate(1);
+    visibility: visible;
+    opacity: 1;
+}
+
+#products .cards {
+    margin-bottom: 10px;
+}
+
+#products .button {
+    text-align: center;
+}
+
+#products .button a {
+    color: #FAFAFA;
+font-family: var(--primaryfont);
+font-size: 16px;
+font-weight: 500;
+line-height: 24px; 
+border-radius: 4px;
+background-color: #DB4444;
+padding: 16px 48px;
+display: inline-block;
+margin-bottom: 60px;
+margin-top: 51px;
+}
+/* EXPLORE OUR PRODUCTS END */
+
+/* NEW ARRIVAL START */
+#arrival .heading h2 {
+    color: var(--primarycolor);
+font-family: var(--secondaryfont);
+font-size: 36px;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: 1.44px;
+padding: 20px 0px 40px 0px;
+}
+
+#arrival .image1 img {
+    margin-top: 30px;
+}
+
+
+#arrival .image1 .overlay {
+    position: absolute;
+    bottom: 4px;
+}
+
+#arrival .image1 {
+    background-color: var(--primarycolor);
+    position: relative;
+}
+
+#arrival .image1 .overlay h2 {
+    color: #FAFAFA;
+font-family: var(--secondaryfont);
+font-size: 24px;
+font-weight: 600;
+line-height: 24px; 
+letter-spacing: 0.72px;
+}
+
+#arrival .image1 .overlay p {
+    color: #FAFAFA;
+font-family: var(--primaryfont);
+font-size: 14px;
+font-weight: 400;
+line-height: 21px; 
+}
+
+#arrival .image1 .overlay a {
+    color: #FFF;
+font-family: var(--primaryfont);
+font-size: 16px;
+font-weight: 500;
+line-height: 24px; 
+}
+
+#arrival .image1 .overlay {
+    transform: translate(0);
+    opacity: 0;
+    visibility: hidden;
+    transition: 300ms;
+}
+
+#arrival .image1:hover .overlay {
+    transform: translate(1);
+    opacity: 1;
+    visibility: visible;
+}
+
+#arrival .image1 .overlay a:hover{
+    border-bottom: 1px solid white;
+}
+
+#arrival .image3 img {
+    background-color: var(--primarycolor);
+    margin-top: 20px;
+    padding: 20px;
+}
+
+#arrival .image4 img {
+    background-color: var(--primarycolor);
+    margin-top: 20px;
+    padding: 20px;
+    width: 200px;
+    height: 260px;
+}
+/* NEW ARRIVAL END */
+
+/* FREE AND FIRST DELIEVERY START */
+#free {
+    padding: 80px 0px;
+}
+
+#free .cards .image {
+    margin-bottom: 20px;
+}
+
+#free .cards h2 {
+    color: var(--primarycolor);
+font-family: var(--primaryfont);
+font-size: 20px;
+font-weight: 600;
+line-height: 28px; 
+}
+
+#free .cards p {
+    color: var(--primarycolor);
+font-family: var(--primaryfont);
+font-size: 14px;
+font-weight: 400;
+line-height: 21px; 
+}
+/* FREE AND FIRST DELIEVERY END */
+
+/* PRE FOOTER START */
+#footer {
+    background-color: var(--primarycolor);
+}
+
+#footer .cards {
+    padding: 100px 0px;
+}
+
+#footer .cards h2 {
+    color: #FAFAFA;
+font-family: var(--secondarycolor);
+font-size: 24px;
+font-weight: 700;
+line-height: 24px; 
+letter-spacing: 0.72px;
+margin-bottom: 24px;
+}
+
+#footer .cards p {
+    color: #FAFAFA;
+font-family: var(--primaryfont);
+font-size: 20px;
+font-weight: 500;
+line-height: 28px; 
+margin-bottom: 24px;
+}
+
+#footer .cards h6 {
+    color:  #FAFAFA;
+font-family: var(--primaryfont);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px; 
+margin-bottom: 15px;
+}
+
+#footer .cards input {
+    color: var(--primarycolor);
+font-family: var(--primaryfont);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px; 
+opacity: 0.4;
+padding: 12px 12px 12px 16px;
+border: none;
+outline: none;
+}
+
+#footer .cards a {
+    color: #FAFAFA;
+font-family: var(--primaryfont);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+
+#footer .cards .icon a {
+    color: white;
+    margin-right: 20px;
+    margin-top: 25px;
+    display: inline-block;
+    transition: 400ms;
+}
+
+#footer .cards .icon:hover a {
+    background-color: blue;
+    padding: 5px 10px;
+}
+/* PRE FOOTER END */
+
+
+
